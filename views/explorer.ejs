@@ -53,7 +53,7 @@ header > .dark {
   width: 200px;
 }
 pre {
-  white-space: pre-wrap; 
+  white-space: pre-wrap;
 }
 .table {
   overflow: auto;
@@ -234,7 +234,7 @@ var run = function() {
         fetch(endpoint + btoa(query), {
           // TODO: Implement API Key Management
           headers: { key: "" }
-        }).then(function(r) { 
+        }).then(function(r) {
           return r.json()
         }).then(function(r) {
           if (r.u) {
@@ -341,7 +341,7 @@ var render = function(selector, items) {
 <body>
   <div class='container'>
     <header>
-      <a href='/' class='brand'>explorer</a>
+      <img style='width: 175px; padding: 10px;' height="30" width="30" src="./logo.png" alt="Bitcoin.com Logo">
       <div class='flexible'></div>
       <a href='https://github.com/bitcoin-com/bchserve' class='item'><i class='fab fa-github'></i> Fork</a>
     </header>
